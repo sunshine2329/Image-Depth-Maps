@@ -63,6 +63,17 @@ class DepthImageFilters {
         return UIImage(cgImage: cgImage, scale: 1.0, orientation: orientation)
     }
 
+    func colorHighlight(image: CIImage, mask: CIImage, orientation: UIImage.Orientation = .up) -> UIImage? {
+        let greyscale = image.applyingFilter("CIPhotoEffectMono")
+        let output = image.applyingFilter("CIBlendWithMask", parameters: ["inputBackgroundImage" : greyscale,
+                                                                          "inputMaskImage": mask])
+        
+        guard let cgImage = context.createCGImage(output, from: output.extent) else {
+            return nil
+        }
+        
+        return UIImage(cgImage: cgImage, scale: 1.0, orientation: orientation)
+    }
 }
 
 
