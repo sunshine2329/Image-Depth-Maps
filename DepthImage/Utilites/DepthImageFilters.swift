@@ -74,6 +74,18 @@ class DepthImageFilters {
         
         return UIImage(cgImage: cgImage, scale: 1.0, orientation: orientation)
     }
+    
+    func blur(image: CIImage, mask: CIImage, orientation: UIImage.Orientation = .up) -> UIImage? {
+        let invertedMask = mask.applyingFilter("CIColorInvert")
+        let output = image.applyingFilter("CIMaskedVariableBlur", parameters: ["inputMask" : invertedMask,
+                                                                               "inputRadius": 15.0])
+        
+        guard let cgImage = context.createCGImage(output, from: output.extent) else {
+            return nil
+        }
+        
+        return UIImage(cgImage: cgImage, scale: 1.0, orientation: orientation)
+    }
 }
 
 
