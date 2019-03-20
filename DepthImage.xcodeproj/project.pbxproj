@@ -8,20 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		1EF348622241E59F00AA81DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF348612241E59F00AA81DA /* AppDelegate.swift */; };
-		1EF348642241E59F00AA81DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF348632241E59F00AA81DA /* ViewController.swift */; };
+		1EF348642241E59F00AA81DA /* DepthImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF348632241E59F00AA81DA /* DepthImageViewController.swift */; };
 		1EF348672241E59F00AA81DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF348652241E59F00AA81DA /* Main.storyboard */; };
 		1EF348692241E5A400AA81DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF348682241E5A400AA81DA /* Assets.xcassets */; };
 		1EF3486C2241E5A400AA81DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3486A2241E5A400AA81DA /* LaunchScreen.storyboard */; };
+		1EF3487E2241E63C00AA81DA /* test02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF348742241E63A00AA81DA /* test02.jpg */; };
+		1EF3487F2241E63C00AA81DA /* test09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF348752241E63A00AA81DA /* test09.jpg */; };
+		1EF348802241E63C00AA81DA /* test00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF348762241E63A00AA81DA /* test00.jpg */; };
+		1EF348812241E63C00AA81DA /* test01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF348772241E63A00AA81DA /* test01.jpg */; };
+		1EF348822241E63C00AA81DA /* test06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF348782241E63B00AA81DA /* test06.jpg */; };
+		1EF348832241E63C00AA81DA /* test07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF348792241E63B00AA81DA /* test07.jpg */; };
+		1EF348842241E63C00AA81DA /* test03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3487A2241E63B00AA81DA /* test03.jpg */; };
+		1EF348852241E63C00AA81DA /* test04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3487B2241E63B00AA81DA /* test04.jpg */; };
+		1EF348862241E63C00AA81DA /* test05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3487C2241E63B00AA81DA /* test05.jpg */; };
+		1EF348872241E63C00AA81DA /* test08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1EF3487D2241E63C00AA81DA /* test08.jpg */; };
+		1EF3488A2241E72600AA81DA /* CGImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF348892241E72600AA81DA /* CGImage+Extension.swift */; };
+		1EF3488C2241E73F00AA81DA /* CIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3488B2241E73F00AA81DA /* CIImage+Extension.swift */; };
+		1EF3488E2241E76300AA81DA /* CVPixelBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3488D2241E76300AA81DA /* CVPixelBuffer+Extension.swift */; };
+		1EF348902241E77B00AA81DA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF3488F2241E77B00AA81DA /* UIImage+Extension.swift */; };
+		1EF348932241E7A800AA81DA /* ControlEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF348922241E7A800AA81DA /* ControlEnums.swift */; };
+		1EF348952241E7B800AA81DA /* DepthImageFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF348942241E7B800AA81DA /* DepthImageFilters.swift */; };
+		1EF348972241E7C200AA81DA /* DepthReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF348962241E7C200AA81DA /* DepthReader.swift */; };
+		1EF348992241E7CC00AA81DA /* DepthReaderSimulatorHack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF348982241E7CC00AA81DA /* DepthReaderSimulatorHack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EF3485E2241E59F00AA81DA /* DepthImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF348612241E59F00AA81DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EF348632241E59F00AA81DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EF348632241E59F00AA81DA /* DepthImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthImageViewController.swift; sourceTree = "<group>"; };
 		1EF348662241E59F00AA81DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EF348682241E5A400AA81DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EF3486B2241E5A400AA81DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EF3486D2241E5A400AA81DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF348742241E63A00AA81DA /* test02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test02.jpg; sourceTree = "<group>"; };
+		1EF348752241E63A00AA81DA /* test09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test09.jpg; sourceTree = "<group>"; };
+		1EF348762241E63A00AA81DA /* test00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test00.jpg; sourceTree = "<group>"; };
+		1EF348772241E63A00AA81DA /* test01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test01.jpg; sourceTree = "<group>"; };
+		1EF348782241E63B00AA81DA /* test06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test06.jpg; sourceTree = "<group>"; };
+		1EF348792241E63B00AA81DA /* test07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test07.jpg; sourceTree = "<group>"; };
+		1EF3487A2241E63B00AA81DA /* test03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test03.jpg; sourceTree = "<group>"; };
+		1EF3487B2241E63B00AA81DA /* test04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test04.jpg; sourceTree = "<group>"; };
+		1EF3487C2241E63B00AA81DA /* test05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test05.jpg; sourceTree = "<group>"; };
+		1EF3487D2241E63C00AA81DA /* test08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test08.jpg; sourceTree = "<group>"; };
+		1EF348892241E72600AA81DA /* CGImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage+Extension.swift"; sourceTree = "<group>"; };
+		1EF3488B2241E73F00AA81DA /* CIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+Extension.swift"; sourceTree = "<group>"; };
+		1EF3488D2241E76300AA81DA /* CVPixelBuffer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Extension.swift"; sourceTree = "<group>"; };
+		1EF3488F2241E77B00AA81DA /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		1EF348922241E7A800AA81DA /* ControlEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlEnums.swift; sourceTree = "<group>"; };
+		1EF348942241E7B800AA81DA /* DepthImageFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthImageFilters.swift; sourceTree = "<group>"; };
+		1EF348962241E7C200AA81DA /* DepthReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthReader.swift; sourceTree = "<group>"; };
+		1EF348982241E7CC00AA81DA /* DepthReaderSimulatorHack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthReaderSimulatorHack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +90,56 @@
 		1EF348602241E59F00AA81DA /* DepthImage */ = {
 			isa = PBXGroup;
 			children = (
+				1EF348912241E79B00AA81DA /* Utilites */,
+				1EF348882241E71000AA81DA /* Extensions */,
 				1EF348612241E59F00AA81DA /* AppDelegate.swift */,
-				1EF348632241E59F00AA81DA /* ViewController.swift */,
+				1EF348632241E59F00AA81DA /* DepthImageViewController.swift */,
+				1EF348732241E63100AA81DA /* Resources */,
+			);
+			path = DepthImage;
+			sourceTree = "<group>";
+		};
+		1EF348732241E63100AA81DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1EF348652241E59F00AA81DA /* Main.storyboard */,
 				1EF348682241E5A400AA81DA /* Assets.xcassets */,
 				1EF3486A2241E5A400AA81DA /* LaunchScreen.storyboard */,
 				1EF3486D2241E5A400AA81DA /* Info.plist */,
+				1EF348762241E63A00AA81DA /* test00.jpg */,
+				1EF348772241E63A00AA81DA /* test01.jpg */,
+				1EF348742241E63A00AA81DA /* test02.jpg */,
+				1EF3487A2241E63B00AA81DA /* test03.jpg */,
+				1EF3487B2241E63B00AA81DA /* test04.jpg */,
+				1EF3487C2241E63B00AA81DA /* test05.jpg */,
+				1EF348782241E63B00AA81DA /* test06.jpg */,
+				1EF348792241E63B00AA81DA /* test07.jpg */,
+				1EF3487D2241E63C00AA81DA /* test08.jpg */,
+				1EF348752241E63A00AA81DA /* test09.jpg */,
 			);
-			path = DepthImage;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1EF348882241E71000AA81DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1EF348892241E72600AA81DA /* CGImage+Extension.swift */,
+				1EF3488B2241E73F00AA81DA /* CIImage+Extension.swift */,
+				1EF3488D2241E76300AA81DA /* CVPixelBuffer+Extension.swift */,
+				1EF3488F2241E77B00AA81DA /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1EF348912241E79B00AA81DA /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				1EF348922241E7A800AA81DA /* ControlEnums.swift */,
+				1EF348942241E7B800AA81DA /* DepthImageFilters.swift */,
+				1EF348962241E7C200AA81DA /* DepthReader.swift */,
+				1EF348982241E7CC00AA81DA /* DepthReaderSimulatorHack.swift */,
+			);
+			path = Utilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +201,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EF3486C2241E5A400AA81DA /* LaunchScreen.storyboard in Resources */,
+				1EF348802241E63C00AA81DA /* test00.jpg in Resources */,
+				1EF348862241E63C00AA81DA /* test05.jpg in Resources */,
+				1EF348872241E63C00AA81DA /* test08.jpg in Resources */,
 				1EF348692241E5A400AA81DA /* Assets.xcassets in Resources */,
+				1EF348852241E63C00AA81DA /* test04.jpg in Resources */,
 				1EF348672241E59F00AA81DA /* Main.storyboard in Resources */,
+				1EF3487F2241E63C00AA81DA /* test09.jpg in Resources */,
+				1EF348812241E63C00AA81DA /* test01.jpg in Resources */,
+				1EF348832241E63C00AA81DA /* test07.jpg in Resources */,
+				1EF3487E2241E63C00AA81DA /* test02.jpg in Resources */,
+				1EF348842241E63C00AA81DA /* test03.jpg in Resources */,
+				1EF348822241E63C00AA81DA /* test06.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +223,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF348642241E59F00AA81DA /* ViewController.swift in Sources */,
+				1EF348642241E59F00AA81DA /* DepthImageViewController.swift in Sources */,
+				1EF348972241E7C200AA81DA /* DepthReader.swift in Sources */,
+				1EF3488C2241E73F00AA81DA /* CIImage+Extension.swift in Sources */,
+				1EF3488E2241E76300AA81DA /* CVPixelBuffer+Extension.swift in Sources */,
+				1EF348952241E7B800AA81DA /* DepthImageFilters.swift in Sources */,
+				1EF348902241E77B00AA81DA /* UIImage+Extension.swift in Sources */,
+				1EF348932241E7A800AA81DA /* ControlEnums.swift in Sources */,
 				1EF348622241E59F00AA81DA /* AppDelegate.swift in Sources */,
+				1EF348992241E7CC00AA81DA /* DepthReaderSimulatorHack.swift in Sources */,
+				1EF3488A2241E72600AA81DA /* CGImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +379,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DepthImage/Info.plist;
+				DEVELOPMENT_TEAM = XLZM74ZT88;
+				INFOPLIST_FILE = "$(SRCROOT)/DepthImage/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +397,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DepthImage/Info.plist;
+				DEVELOPMENT_TEAM = XLZM74ZT88;
+				INFOPLIST_FILE = "$(SRCROOT)/DepthImage/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
