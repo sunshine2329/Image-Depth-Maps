@@ -54,6 +54,15 @@ class DepthImageFilters {
         
         return mask
     }
+    
+    func spotlightHighlight(image: CIImage, mask: CIImage, orientation: UIImage.Orientation = .up) -> UIImage? {
+        let output = image.applyingFilter("CIBlendWithMask", parameters: ["inputMaskImage": mask])
+        guard let cgImage = context.createCGImage(output, from: output.extent) else {
+            return nil
+        }
+        return UIImage(cgImage: cgImage, scale: 1.0, orientation: orientation)
+    }
+
 }
 
 

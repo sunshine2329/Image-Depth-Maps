@@ -180,7 +180,7 @@ extension DepthImageViewController {
             
             switch selectedFilter {
             case .spotlight:
-                finalImage = origImage
+                finalImage = depthFilters?.spotlightHighlight(image: filterImage, mask: mask, orientation: orientation)
             case .color:
                 finalImage = origImage
             case .blur:
